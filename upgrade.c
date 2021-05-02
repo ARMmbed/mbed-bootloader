@@ -369,7 +369,7 @@ int main(void)
         goto fail;
     }
 
-    pr_info("Searching for candidate image...");
+    pr_cmd("Search for candidate");
 
     do {
         read_installed_fw_header();
